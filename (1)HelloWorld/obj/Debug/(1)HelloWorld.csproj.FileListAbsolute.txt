@@ -1,7 +1,0 @@
-c:\users\larchi\documents\visual studio 2017\Projects\(1)HelloWorld\(1)HelloWorld\bin\Debug\(1)HelloWorld.exe.config
-c:\users\larchi\documents\visual studio 2017\Projects\(1)HelloWorld\(1)HelloWorld\bin\Debug\(1)HelloWorld.exe
-c:\users\larchi\documents\visual studio 2017\Projects\(1)HelloWorld\(1)HelloWorld\bin\Debug\(1)HelloWorld.pdb
-c:\users\larchi\documents\visual studio 2017\Projects\(1)HelloWorld\(1)HelloWorld\obj\Debug\(1)HelloWorld.csprojResolveAssemblyReference.cache
-c:\users\larchi\documents\visual studio 2017\Projects\(1)HelloWorld\(1)HelloWorld\obj\Debug\(1)HelloWorld.csproj.CoreCompileInputs.cache
-c:\users\larchi\documents\visual studio 2017\Projects\(1)HelloWorld\(1)HelloWorld\obj\Debug\(1)HelloWorld.exe
-c:\users\larchi\documents\visual studio 2017\Projects\(1)HelloWorld\(1)HelloWorld\obj\Debug\(1)HelloWorld.pdb
