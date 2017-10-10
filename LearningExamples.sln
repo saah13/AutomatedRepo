@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparisonOfNumbers", "Comp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchUsage", "SwitchUsage\SwitchUsage.csproj", "{ADD761EE-74B2-4B2E-BD00-EC81B7E3D7E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsageOfConditional", "UsageOfConditional\UsageOfConditional.csproj", "{703615FC-3E35-4753-BF33-4AFB10E41752}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{ADD761EE-74B2-4B2E-BD00-EC81B7E3D7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADD761EE-74B2-4B2E-BD00-EC81B7E3D7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADD761EE-74B2-4B2E-BD00-EC81B7E3D7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703615FC-3E35-4753-BF33-4AFB10E41752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703615FC-3E35-4753-BF33-4AFB10E41752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703615FC-3E35-4753-BF33-4AFB10E41752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703615FC-3E35-4753-BF33-4AFB10E41752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
