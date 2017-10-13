@@ -25,6 +25,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorThatImplementsSum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsageOfConditionalSecond", "UsageOfConditionalSecond\UsageOfConditionalSecond.csproj", "{12A117BC-0CEC-485A-A8A5-B844FD811255}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeachUsage", "ForeachUsage\ForeachUsage.csproj", "{78E0C9FF-7707-463F-B15B-7AC77D73613F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForUsage", "ForUsage\ForUsage.csproj", "{E3EBFB2F-1B59-4504-AD77-3200E563939C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileUsage", "WhileUsage\WhileUsage.csproj", "{79F5F1FC-FEFC-4113-BDD6-77DDDDFA890A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhileUsage", "DoWhileUsage\DoWhileUsage.csproj", "{B88F1147-0470-40F7-A4C2-D9C814AA1940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursive Function", "Recursive Function\Recursive Function.csproj", "{2DAF1F1F-43E9-42C3-82CE-920EA1ECF15F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +85,26 @@ Global
 		{12A117BC-0CEC-485A-A8A5-B844FD811255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12A117BC-0CEC-485A-A8A5-B844FD811255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12A117BC-0CEC-485A-A8A5-B844FD811255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E0C9FF-7707-463F-B15B-7AC77D73613F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E0C9FF-7707-463F-B15B-7AC77D73613F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E0C9FF-7707-463F-B15B-7AC77D73613F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E0C9FF-7707-463F-B15B-7AC77D73613F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3EBFB2F-1B59-4504-AD77-3200E563939C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EBFB2F-1B59-4504-AD77-3200E563939C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EBFB2F-1B59-4504-AD77-3200E563939C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EBFB2F-1B59-4504-AD77-3200E563939C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F5F1FC-FEFC-4113-BDD6-77DDDDFA890A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F5F1FC-FEFC-4113-BDD6-77DDDDFA890A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F5F1FC-FEFC-4113-BDD6-77DDDDFA890A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F5F1FC-FEFC-4113-BDD6-77DDDDFA890A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88F1147-0470-40F7-A4C2-D9C814AA1940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88F1147-0470-40F7-A4C2-D9C814AA1940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88F1147-0470-40F7-A4C2-D9C814AA1940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88F1147-0470-40F7-A4C2-D9C814AA1940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DAF1F1F-43E9-42C3-82CE-920EA1ECF15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DAF1F1F-43E9-42C3-82CE-920EA1ECF15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DAF1F1F-43E9-42C3-82CE-920EA1ECF15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DAF1F1F-43E9-42C3-82CE-920EA1ECF15F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
