@@ -6,9 +6,8 @@ namespace ComparisonOfNumbers
     {
         static void Main(string[] args)
         {
-            int randomNumber;
             Random RNG = new Random();
-            randomNumber = RNG.Next(1, 10);
+            int randomNumber = RNG.Next(1, 10);
             Console.WriteLine("Enter the number");
             int y = Convert.ToInt32(Console.ReadLine());
             if (randomNumber == y)
