@@ -15,7 +15,7 @@ namespace ComparisonOfNumbers
                 Console.WriteLine("Congratulations");
                 Console.ReadKey();
             }
-            else if(randomNumber >= y)
+            else if(randomNumber > y)
             {
                 Console.WriteLine($"Your number is smaller,number was {randomNumber} ");
                 Console.ReadKey();
