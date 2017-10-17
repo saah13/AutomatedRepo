@@ -1,30 +1,43 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace IntArray 
+namespace IntArray
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int[] array = new int[5];
-            Console.WriteLine("Enter first number");
-            array[0] = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter second number");
-            array[1] = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter third number");
-            array[2] = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter fourth number");
-            array[3] = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter fifth number");
-            array[4] = Convert.ToInt32(Console.ReadLine());
-            Factorial factorial = new Factorial();
-            for (int i = 0; i < array.Length; i++)
-            Console.WriteLine($"Factorial of number { array[i]} equals { factorial.Calculate(i)} {factorial.Calculate.res} ");
-            Console.ReadKey(); 
+            int i = 5; //Number of numbers in the array
+            int k = i - 1;
+            int[] array = new int[i];
+            while (i > 0)
+            {
+                if (i != 1)
+                {
+                    Console.WriteLine($"Enter {i} more numbers range 1-20");
+                }
+                else
+                {
+                    Console.WriteLine($"Enter {i} more number range 1-20");
+                }
+                int x = int.Parse(Console.ReadLine());
+                if (x >= 1 & x <= 20)
+                {
+                    array[i - 1] = x;
+                    i--;
+                }
+                else
+                {
+                    Console.WriteLine("You entered invalid number \n");
+                }
+
+            }
+            for (int y = k; y >= 0; y--)
+            {
+                Console.WriteLine($"Factorial of number {array[y]} equals { Factorial.Calculate(array[y])}");
+            }
+
+            Console.ReadKey();
+
         }
 
     }
