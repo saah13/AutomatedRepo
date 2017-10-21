@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntBasedDictionary
 {
@@ -10,24 +7,20 @@ namespace IntBasedDictionary
     {
         static void Main(string[] args)
         {
-            List<Word> dictionary = new List<Word>();
+            Dictionary<Guid, string> dictionary = new Dictionary<Guid, string>();
             for (int i = 10; i > 0; i--)
             {
-                string guid = Guid.NewGuid().ToString();
+                var guid = Guid.NewGuid();
                 Console.WriteLine($"Enter {i} more");
-                dictionary.Add(new Word() { Content = Console.ReadLine(), Id = guid });
+                dictionary.Add(guid,Console.ReadLine());
             }
-            foreach (Word i in dictionary)
+            foreach (var i in dictionary)
             {
-                Console.WriteLine($"{i.Id}   {i.Content}");
+                Console.WriteLine($"{i.Key}   {i.Value}");
             }
             Console.ReadKey();
         }
-        public class Word
-        {
-            public string Id { get; set; }
-            public string Content { get; set; }
-        }
+
     }
 
 }
