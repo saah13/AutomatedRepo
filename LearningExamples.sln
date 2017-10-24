@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntBasedDictionary", "IntBasedDictionary\IntBasedDictionary.csproj", "{A8650B83-4330-45ED-8D17-C2F4470BFF47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTesting", "LinqTesting\LinqTesting.csproj", "{C1C199C2-2191-4FF3-885D-27791896BC93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{A8650B83-4330-45ED-8D17-C2F4470BFF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8650B83-4330-45ED-8D17-C2F4470BFF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8650B83-4330-45ED-8D17-C2F4470BFF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C199C2-2191-4FF3-885D-27791896BC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C199C2-2191-4FF3-885D-27791896BC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C199C2-2191-4FF3-885D-27791896BC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C199C2-2191-4FF3-885D-27791896BC93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
