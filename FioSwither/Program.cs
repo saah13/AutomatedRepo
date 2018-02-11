@@ -10,7 +10,7 @@ namespace FioSwither
     {
         static void Main(string[] args)
         {
-            FioSwitherM.Split("Lisetskyi Anton Oleksandrovich");
+            FioSwitherM.SplitSecond("Lisetskyi Anton Oleksandrovich");
             Console.ReadKey();
         }
     }
